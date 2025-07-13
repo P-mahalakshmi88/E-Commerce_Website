@@ -1,0 +1,146 @@
+
+
+/* .manage-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.product-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.edit-btn,
+.delete-btn,
+.back-btn {
+  padding: 6px 12px;
+  margin-right: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+  margin-right: 25px;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+} */
+
+.manage-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.product-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* NEW: Wrap buttons in this container */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* This creates the gap between Edit and Delete */
+}
+
+.edit-btn,
+.delete-btn,
+.back-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}

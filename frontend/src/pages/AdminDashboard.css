@@ -1,0 +1,26 @@
+/* src/pages/AdminDashboard.css */
+
+.admin-dashboard {
+  text-align: center;
+  padding: 40px;
+}
+
+.admin-options {
+  margin-top: 20px;
+}
+
+.admin-options button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-options button:hover {
+  background-color: #0056b3;
+}

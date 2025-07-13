@@ -1,0 +1,55 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-buttons a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-buttons a:hover {
+  text-decoration: underline;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-buttons a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-buttons a:hover {
+  text-decoration: underline;
+}
+
+/* Target only the Logout link */
+.nav-buttons a.logout {
+  color: white;
+}
+.buttons{
+  background-color: red;
+}
